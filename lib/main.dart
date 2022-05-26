@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:localization/localization/demo_localization.dart';
 import 'package:localization/pages/home_page.dart';
+import 'package:localization/pages/misl.dart';
 
 import 'localization/language_constants.dart';
 
@@ -54,7 +55,7 @@ class _MyAppState extends State<MyApp> {
             primarySwatch: Colors.orange,
           ),
 
-          home: HomePage(),
+          home: Misl(),
 
           // home: SplashScreen(),
 
