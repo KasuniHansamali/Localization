@@ -55,7 +55,8 @@ class _MyAppState extends State<MyApp> {
             primarySwatch: Colors.orange,
           ),
 
-          home: Misl(),
+          // home: Misl(),
+          home: HomePage(),
 
           // home: SplashScreen(),
 
