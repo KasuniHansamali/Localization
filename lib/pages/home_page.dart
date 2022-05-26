@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Welcome')
+        title: Text (getTranslated(context, 'Welcome_Back!')?? "")
 
       ),
 
